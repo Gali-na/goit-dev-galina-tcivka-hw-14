@@ -1,6 +1,7 @@
-package goit.spring.data.model;
+package goit.spring.data.service;
 import goit.spring.data.exception.NoteInformationException;
 import goit.spring.data.exception.NoteNotFoundException;
+import goit.spring.data.model.Note;
 import goit.spring.data.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -11,6 +11,7 @@ public class Note {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private long id;
+    @Column(name = "title")
     private String title;
     @Column(name = "content_note")
     private String contentNote;

@@ -2,7 +2,7 @@ package goit.spring.data;
 import goit.spring.data.exception.NoteInformationException;
 import goit.spring.data.exception.NoteNotFoundException;
 import goit.spring.data.model.Note;
-import goit.spring.data.model.NoteService;
+import goit.spring.data.service.NoteService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

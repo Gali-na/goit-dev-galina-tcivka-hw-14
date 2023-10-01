@@ -2882,3 +2882,6 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/Users/Acer Ni
 	at org.h2.mvstore.FileStore.open(FileStore.java:128)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
 	... 41 more
+2023-10-01 19:31:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Объект уже закрыт
+The object is already closed [90007-214]

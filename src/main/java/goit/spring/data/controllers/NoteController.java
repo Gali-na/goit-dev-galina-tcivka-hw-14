@@ -2,7 +2,7 @@ package goit.spring.data.controllers;
 import goit.spring.data.exception.NoteInformationException;
 import goit.spring.data.exception.NoteNotFoundException;
 import goit.spring.data.model.Note;
-import goit.spring.data.model.NoteService;
+import goit.spring.data.service.NoteService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
