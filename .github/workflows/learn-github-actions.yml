@@ -1,5 +1,5 @@
-name: learn-github-actions1
-run-name: ${{ github.actor1 }} is learning GitHub Actions
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
 on:
   pull_request:
      branches:
@@ -19,5 +19,8 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
+      
+    - name: Run JUnit Tests
+      run: ./gradlew test
 
     
