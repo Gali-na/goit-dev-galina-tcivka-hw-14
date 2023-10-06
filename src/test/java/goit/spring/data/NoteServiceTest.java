@@ -122,5 +122,13 @@ public class NoteServiceTest {
         assertEquals(noteService.getById(newNote.getId()).getTitle(), "dog");
         assertEquals(noteService.getById(newNote.getId()).getContentNote(), "walk with the dog");
     }
-
+    @Test
+    void getById_IdExist_PositiveResult2() throws NoteNotFoundException, NoteInformationException {
+        Note note = new Note();
+        note.setTitle("dog");
+        note.setContentNote("walk with the dog");
+        Note newNote = noteService.add(note);
+        assertEquals(noteService.getById(newNote.getId()).getTitle(), "dog");
+        assertEquals(noteService.getById(newNote.getId()).getContentNote(), "walk with the dog");
+    }
 }
